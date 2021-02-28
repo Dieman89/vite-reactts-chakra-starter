@@ -5,13 +5,16 @@
   "author": {
     "name": "Alessandro Buonerba"
   },
-  "description": "Starter pack using Vite v2, React, Typescript and Chakra",
+  "description": "Starter pack using Vite, React, Typescript, Chakra and Cypress",
   "keywords": [
     "vite",
     "react",
     "typescript",
     "chakra"
   ],
+  "repository": {
+    "url": "https://github.com/Dieman89/vite-reactts-chakra-starter"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
