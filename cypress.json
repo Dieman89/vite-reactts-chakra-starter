@@ -1,3 +1,5 @@
 {
-  "video": false
+  "video": false,
+  "pluginsFile": false,
+  "supportFile": false
 }
