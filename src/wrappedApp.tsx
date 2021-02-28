@@ -1,6 +1,6 @@
 import React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
-import { Demo } from "pages";
+import { Demo } from "./pages";
 
 const WrappedApp = (
   <ChakraProvider>
