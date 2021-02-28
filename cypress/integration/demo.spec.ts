@@ -3,3 +3,5 @@ describe("Cypress", () => {
     expect(true).to.equal(true);
   });
 });
+
+export {};

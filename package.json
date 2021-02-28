@@ -16,7 +16,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "start": "tsc && yarn dev",
-    "test": "cypress open",
+    "test": "concurrently \"yarn start \" \"cypress open\"",
     "test:ci": "cypress run --headless"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "@chakra-ui/react": "^1.3.3",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
+    "concurrently": "^6.0.0",
     "framer-motion": "^3.7.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
@@ -31,13 +32,13 @@
   },
   "devDependencies": {
     "@cypress/react": "^4.16.4",
+    "@types/node": "^14.14.31",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@vitejs/plugin-react-refresh": "^1.1.0",
     "cypress": "^6.5.0",
     "typescript": "^4.1.2",
     "vite": "^2.0.1",
-    "vite-aliases": "^0.5.0",
-    "wait-on": "^5.2.1"
+    "vite-aliases": "^0.5.0"
   }
 }
